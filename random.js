@@ -8,5 +8,5 @@ function genPass(id){
 	for(let i = 0; i < 30; i++){
 		out = out+dictionary[Math.floor(Math.random()*94)];
 	}
-	document.getElementById(id).innerHTML = out;
+	document.getElementById(id).textContent = out;
 }
